@@ -1,0 +1,7 @@
+
+- name: Instalação do Vault
+  become: true
+  become_method: sudo
+  hosts: vagrant
+  roles:
+    - installPackages

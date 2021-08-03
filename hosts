@@ -1,0 +1,2 @@
+[vagrant]
+vault ansible_host=10.10.0.100
